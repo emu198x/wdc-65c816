@@ -15,8 +15,7 @@ categories = ["emulators"]
 serde = { workspace = true }
 
 [dev-dependencies]
-# Path-only, so the published manifest drops it.
-emu198x-test-skip = { path = "../emu198x-test-skip" }
+emu198x-test-skip = "0.1"
 serde_json = { workspace = true }
 
 [lints]
